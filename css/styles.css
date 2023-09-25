@@ -275,6 +275,10 @@
     align-items: flex-start;
    
 }
+.team-icon:hover,
+.team-icon:focus {
+    border: 1px solid var(--pressed-color);
+}
 
 /* customers styles */
 .customers {
@@ -306,11 +310,26 @@
     height: 88px;
     border: 1px solid var(--subtle-color);
 }
+.customer-icon:hover,
+.customer-icon:focus {
+    border: 1px solid var(--pressed-color);
+    fill: var(--pressed-color);
+}
 /* footer styles*/
 .footer{
     padding: 100px 0;
 
     background-color: var(--dark-color);
+}
+/* .footer-wrap {
+    display: flex;
+    gap: 120px;
+} */
+.footer-social {
+    /* display: flex;
+    margin-left: 120px; */
+    width: 208px;
+    height: 80px;
 }
 .footer-logo {
     display: inline-block;
