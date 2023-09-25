@@ -1,6 +1,9 @@
 /* header */
 .header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
     padding: 0 15px;
@@ -35,6 +38,10 @@
     display: block;
     padding: 24px 0;
 
+        position: relative;
+        color: var(--pressed-color);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -44,6 +51,14 @@
 .nav-link:hover,
 .nav-link:focus {
     color:var(--pressed-color);
+}
+.nav-link::after {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: var(--pressed-color);
+    border-radius: 2px;
 }
 .accent{
     color: var(--herobck-color);
@@ -56,7 +71,7 @@
     gap: 40px;
 }
 .contact-item{
-
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 .contact-link {
 
