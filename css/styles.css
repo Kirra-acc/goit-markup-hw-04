@@ -371,8 +371,6 @@
 .footer-wrapper {
     display: flex;
     align-items: baseline;
-
-    margin-right: 120px;
 }
 .footer-text {
     margin-right: 120px;
