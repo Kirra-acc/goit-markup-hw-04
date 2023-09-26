@@ -32,20 +32,6 @@
     display: flex;
     gap: 40px;   
 }
-/* .nav-item {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--herobck-color);
-}
-.nav-item .link-studio,
-.nav-item .link-portfolio {
-    position: relative;
-    color: var(--pressed-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}  */
 .nav-link{
     display: block;
     padding: 24px 0;
@@ -96,6 +82,7 @@
 .contact-item{
 }
 .contact-link {
+    padding: 24px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     font-size: 16px;
@@ -274,6 +261,7 @@
     background-color: var(--whitebck-color);
 }
 .team-img {
+    width: 100%;
     display: block;
 }
 .team-info-wrapper {
