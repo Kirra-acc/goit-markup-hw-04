@@ -289,10 +289,11 @@
     justify-content: center;
     align-items: center;
     gap: 24px;
-}
-.teaam-pages-item {
+
     width: 40px;
     height: 40px;
+}
+.teaam-pages-item {
 }
 .team-social-link {
     width: 100%;
