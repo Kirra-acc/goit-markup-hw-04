@@ -355,6 +355,8 @@
 .footer-wrapper {
     display: flex;
     align-items: baseline;
+    
+    margin-right: 120px;
 }
 .footer-text {
     margin-right: 120px;
@@ -604,8 +606,4 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
-}
-
-/* footer */
-.footer {
 }
