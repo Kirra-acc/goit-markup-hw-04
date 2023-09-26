@@ -565,7 +565,7 @@
 }
 
 /* modal styles */
-/* .backdrop {
+.backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -636,8 +636,8 @@
 .modal-btn:hover,
 .modal-btn:focus {
     fill: #ffffff;
-} */
-.backdrop {
+} 
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -706,4 +706,4 @@
 button:hover .modal-btn-icon,
 button:focus .modal-btn-icon {
     fill: #ffffff;
-}
+} */
